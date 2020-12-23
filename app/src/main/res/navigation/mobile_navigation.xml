@@ -12,22 +12,22 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.myproject.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_game"
+        android:name="com.example.myproject.ui.game.GameFragment"
+        android:label="@string/title_game"
+        tools:layout="@layout/fragment_game" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.myproject.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_music"
+        android:name="com.example.myproject.ui.music.MusicFragment"
+        android:label="@string/title_music"
+        tools:layout="@layout/fragment_music" />
 
     <fragment
-        android:id="@+id/navigation_watch"
-        android:name="com.example.myproject.ui.watch.WatchFragment"
-        android:label="@string/title_watch"
-        tools:layout="@layout/fragment_watch" />
+        android:id="@+id/navigation_chat"
+        android:name="com.example.myproject.ui.chat.ChatFragment"
+        android:label="@string/title_chat"
+        tools:layout="@layout/fragment_chat" />
     <fragment
         android:id="@+id/navigation_weather"
         android:name="com.example.myproject.ui.weather.WeatherFragment"
