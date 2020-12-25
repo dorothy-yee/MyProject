@@ -1,7 +1,7 @@
-package com.example.myproject.ui.chat
+package com.example.myproject.ui.watch
 
 import androidx.lifecycle.ViewModel
 
-class ChatViewModel : ViewModel() {
+class WatchViewModel : ViewModel() {
     // TODO: Implement the ViewModel
 }

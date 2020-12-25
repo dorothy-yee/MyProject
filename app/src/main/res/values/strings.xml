@@ -3,6 +3,11 @@
     <string name="title_home">Home</string>
     <string name="title_game">Game</string>
     <string name="title_music">Music</string>
-    <string name="title_chat">Chat</string>
+    <string name="title_watch">Watch</string>
     <string name="title_weather">Weather</string>
+
+    <string name="watch_time">00:00:00</string>
+    <string name="watch_start">开始</string>
+    <string name="watch_stop">停止</string>
+    <string name="watch_restart">重新开始</string>
 </resources>

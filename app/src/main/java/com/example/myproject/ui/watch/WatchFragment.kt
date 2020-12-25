@@ -1,4 +1,4 @@
-package com.example.myproject.ui.chat
+package com.example.myproject.ui.watch
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -8,24 +8,24 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.myproject.R
 
-class ChatFragment : Fragment() {
+class WatchFragment : Fragment() {
 
     companion object {
-        fun newInstance() = ChatFragment()
+        fun newInstance() = WatchFragment()
     }
 
-    private lateinit var viewModel: ChatViewModel
+    private lateinit var viewModel: WatchViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_chat, container, false)
+        return inflater.inflate(R.layout.fragment_watch, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProviders.of(this).get(ChatViewModel::class.java)
+        viewModel = ViewModelProviders.of(this).get(WatchViewModel::class.java)
         // TODO: Use the ViewModel
     }
 
